@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+.main {
+  width: 700px;
+  height: 500px;
+  margin: 20px auto;
+}
+.startButton {
+  display: block;
+  margin: 10px 0;
+  width: 80px;
+  height: 30px;
+  background-color: #f0ee7e;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black;
+}
+.invzb {
+  opacity: 0;
+}

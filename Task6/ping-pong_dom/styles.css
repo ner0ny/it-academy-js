@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.field {
+  background-color: #f0ee7e;
+  border: 3px solid black;
+  position: relative;
+  margin: 50px auto;
+}
+.button-start {
+  width: 80px;
+  height: 25px;
+  background-color: #f0ee7e;
+  font-size: 18px;
+  border: 2px solid black;
+  position: absolute;
+  top: -40px;
+  left: -3px;
+}
+.score {
+  width: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: red;
+  top: -50px;
+  left: 50%;
+  margin-left: -30px;
+}
+.ball {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  display: none;
+  position: absolute;
+}
+.racket {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+}
+.racket__left {
+  left: 0;
+  top: 150px;
+  background-color: #09aa57;
+}
+.racket__right {
+  right: 0;
+  top: 150px;
+  background-color: #191497;
+}
+
+.winner {
+  width: 340px;
+  height: 50px;
+  position: absolute;
+  top: calc(50% - 50px / 2);
+  left: calc(50% - 340px / 2);
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+.timer {
+  width: 20px;
+  position: absolute;
+  top: 20%;
+  left: calc(50% - 10px);
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  display: none;
+}

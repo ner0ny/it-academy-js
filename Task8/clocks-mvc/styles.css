@@ -1,0 +1,81 @@
+body {
+  margin: 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+span {
+  font-size: 18px;
+}
+button {
+  border: 1px solid red;
+  background-color: red;
+  padding: 5px 10px 5px 10px;
+  color: aliceblue;
+  font-weight: 500;
+}
+.main {
+  position: relative;
+  margin-top: 10px;
+}
+.big-circle {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #ffc850;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.small-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #00b67e;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  text-align: center;
+  line-height: 60px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.seconds-arrow {
+  width: 150px;
+  height: 1px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  transform-origin: 0 50%;
+  z-index: 4;
+}
+.minutes-arrow {
+  width: 130px;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  transform-origin: 0 50%;
+  z-index: 3;
+}
+.hours-arrow {
+  width: 100px;
+  height: 10px;
+  background-color: black;
+  border-radius: 8px;
+  position: absolute;
+  transform-origin: 0 50%;
+  z-index: 2;
+}
+#clock1,
+#clock2,
+#clock3,
+#clock4,
+#clock5,
+#clock6 {
+  width: auto;
+  height: auto;
+  margin: 20px 20px;
+}
+canvas {
+  display: block;
+  margin-top: 10px;
+}

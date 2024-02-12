@@ -1,0 +1,29 @@
+.container {
+  margin-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+}
+label {
+  font-size: 20px;
+}
+.timer__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.timer__title,
+.timer {
+  text-align: center;
+}
+#button {
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
