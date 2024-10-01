@@ -6,7 +6,7 @@
 
 ### Задание № 1
 
-1. Проект [variables-and-conditions](./Task1/variables-and-conditions). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task1/variables-and-conditions/variables-and-conditions.html).
+1. Проект [variables-and-conditions](./Task1/variables-and-conditions). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task1/variables-and-conditions/variables-and-conditions.html).
 
 &emsp;Создаем javascript-сценарий, выполняющий следующие задачи:    
 &emsp;1. С помощью prompt() спросить у пользователя длину и ширину прямоугольника, сохранить эти значения в переменные width и length. После этого высчитайте площадь прямоугольника, его периметр и выведите результаты в консоль. Если длина и ширина равны, то дополнительно сообщите в консоли, что перед нами квадрат.    
@@ -17,13 +17,13 @@
 &emsp;&emsp;3.3. отрицательное или положительное    
 &emsp;Не забываем, что число 0 тоже должно обрабатываться.
 
-2. Проект [cycles](./Task1/cycles). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task1/cycles/cycles.html).
+2. Проект [cycles](./Task1/cycles). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task1/cycles/cycles.html).
 
 &emsp;Создаем javascript-сценарий, выполняющий следующие задачи:    
 &emsp;1. Используя цикл while вывести в консоль строку, которая содержит символы “|” (вертикальная полоса) и “_” (нижнее подчеркивание) и выглядит в итоге как треугольник следующего [вида](https://prnt.sc/c3nwDhHyAt1W)    
 &emsp;2. Используя двойной цикл for сформируйте строку, содержащую решётку 8х8, в которой линии разделяются символами новой строки “\n”. На каждой позиции этой решетки должен быть либо белый квадрат (символ “\u2B1C”), либо черный квадрат (символ “\u2B1B”). Вывод строки делать одним единственным вызовом console.log(). В результате должны увидеть шахматную доску следующего [вида](https://prnt.sc/mPrE9zSyCtvS)
 
-3. Проект [fizzbuzz](./Task1/fizzbuzz). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task1/fizzbuzz/fizzbuzz.html).
+3. Проект [fizzbuzz](./Task1/fizzbuzz). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task1/fizzbuzz/fizzbuzz.html).
 
 &emsp;Cоздаем страницу fizzbuzz.html. Подключаем javascript-сценарий (можно использовать просто тег script), в котором необходимо реализовать функцию fizzBuzz()*, выполняющую вывод в консоль чисел от 1 до 100, но с условиями:    
 &emsp;1. если число кратно 3, то вместо числа вывести Fizz.    
@@ -31,7 +31,7 @@
 &emsp;3. если число кратно 3 и 5 одновременно, то вывести вместо числа FizzBuzz.    
 &emsp;В теле функции нельзя использовать ни одинарный, ни множественный if, switch, тернарный оператор (a?b:c) и любые их комбинации (этих операторов не должно быть в решении ни в каком виде). Не использовать множественный for или множественный while (т.е. можно только один цикл для вывода элементов от 1 до 100)!
 
-4. Проект [quadratic](./Task1/quadratic). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task1/quadratic/quadratic.html).
+4. Проект [quadratic](./Task1/quadratic). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task1/quadratic/quadratic.html).
 
 &emsp;Создаем файл quadratic.html и пишем функцию quadraticEquation(), которая на вход принимает коэффициенты квадратного уравнения, а возвращает вещественные корни этого уравнения или сообщает об их отсутствии. Обратите внимание на вывод ответов: очень важно соблюсти знаки сложения\вычитания.    
 &emsp;Пример:    
@@ -49,7 +49,7 @@
 &emsp;&emsp;уравнение 4х^2 – 8x + 1 = 0 имеет корни x1 = 1.8660254037844386 и x2 = 0.1339745962155614    
 &emsp;Обратите внимание на вывод в консоль, важным является именно такой вывод, т.е. с пробелами между символами и отсутствием единицы перед переменными.
 
-5. Проект [compression](./Task1/compression). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task1/compression/compression.html).
+5. Проект [compression](./Task1/compression). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task1/compression/compression.html).
 
 &emsp;Создаем файл compression.html, в котором в js-скрипте создаем две функции compress() и uncompress(), которые будут выполнять следующее:    
 &emsp;Примеры:    
@@ -86,7 +86,7 @@
 &emsp;&emsp;Результат в консоли:    
 &emsp;&emsp;“a12b1c3” => “aaaaaaaaaaaabccc”
 
-6. Проект [countVowels](./Task1/countVowels). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task1/countVowels/countVowels.html).
+6. Проект [countVowels](./Task1/countVowels). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task1/countVowels/countVowels.html).
 
 &emsp;Создаем файл countVowels.html и создаем функцию countVowelLetters(), которая будет возвращать количество русских гласных букв в строке, которая будет являться аргументом функции. Не использовать switch, вложенные циклы, регулярные выражения или if’ы на каждую букву для проверок… Можно использовать методы строк, массивы или хеши для решения задачи.    
 &emsp;Пример:    
@@ -113,11 +113,11 @@
 
 ### Задание № 2
 
-1. Проект [buttons-counter](./Task2/buttons-counter). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/buttons-counter/buttons-counter.html).
+1. Проект [buttons-counter](./Task2/buttons-counter). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/buttons-counter/buttons-counter.html).
 
 &emsp;Создаем файл buttons-counter.html, в котором верстаем три кнопки, стилизуем их на свой вкус, создаем обработчик кликов (достаточно будет просто метода btn.onclick = function(){} для кнопок и считаем количество этих кликов по каждой кнопке, выводя результат в саму кнопку, т.е. как текстовое значение кнопки. Количество нажатий для каждой кнопки должно хранится в замыкании и ничего не знать про саму кнопку (никаких this, textContent, innerText или innerHTML в самой функции подсчета кликов и она должна только возвращать измененное значение счетчика), т.е. должна быть только одна функция подсчета кликов, но использоваться для любого количества кнопок (подразумевается, что кнопок может быть как одна, так и пара сотен...). 
 
-2. Проект [pow-and-calculate](./Task2/pow-and-calculate). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/pow-and-calculate/pow-and-calculate.html).
+2. Проект [pow-and-calculate](./Task2/pow-and-calculate). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/pow-and-calculate/pow-and-calculate.html).
 
 &emsp;Создаем файл pow-and-calculate.html и реализуем функции, которые будут использовать понятие замыкание и каррирование и удовлетворять условиям:    
 &emsp;1. возводить в степень число, а вызываться будет как pow(x)(y);    
@@ -151,7 +151,7 @@
 &emsp;&emsp;2^(-3) = 0.125    
 &emsp;&emsp;2/0 = Ошибка (на ноль делить нельзя)
 
-3. Проект [calcWithFunc](./Task2/calcWithFunc). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/calcWithFunc/calcWithFunc.html).
+3. Проект [calcWithFunc](./Task2/calcWithFunc). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/calcWithFunc/calcWithFunc.html).
 
 &emsp;Создаем файл calcWithFunc.html и пишем функции, которые будут выполнять следующие условия:    
 &emsp;1.	Для каждого числа должна быть своя функция, т.е. от 0 (“zero”) до 9 (“nine”);    
@@ -177,7 +177,7 @@
 &emsp;&emsp;Результат:    
 &emsp;&emsp;Результат: 6 / 2 = 3
 
-4. Проект [methods](./Task2/methods). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/methods/methods.html).
+4. Проект [methods](./Task2/methods). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/methods/methods.html).
 
 - Создаем файл methods.html, в котором реализуем следующий функционал:    
 &emsp;1. На входе имеем массив простых чисел (например, numbers). Нужно описать функцию currentSums(numbers), которая возвращает новый массив из такого же числа элементов, в котором на каждой позиции будет находиться сумма элементов массива numbers до этой позиции включительно. Для решения использовать метод reduce().     
@@ -209,7 +209,7 @@
 &emsp;&emsp;changeArray([ 1, 2, 3, 4, 5, 6, 7, 8]);  //[ 5, 6, 7, 8, 1, 2, 3, 4 ]
 
 
-4. Проект [calendar](./Task2/calendar). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/calendar/calendar.html).
+4. Проект [calendar](./Task2/calendar). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/calendar/calendar.html).
 
 &emsp;Создаем файл calendar.html и реализуем следующее:    
 &emsp;1. Спрашиваем у пользователя месяц (номер месяца) и год через prompt();    
@@ -218,14 +218,14 @@
 &emsp;Желательно всю верстку построить с помощью javascript методов работы с DOM.
 
 
-4. Проект [method-counter](./Task2/method-counter). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/method-counter/method-counter.html).
+4. Проект [method-counter](./Task2/method-counter). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/method-counter/method-counter.html).
 
 &emsp;Создаем файл method-counter.html, в котором реализуем ф-цию getCounter, которая использует аргумент, как начальное значение (если аргумент не был передан, то начальное значение равно 0) и возвращает объект, содержащий методы log, count и reset, работающие со значением и выполняющие в итоге следующий код:    
 &emsp;const counter = getCounter(5);
 &emsp;counter.log() // 5.count(4).log() // 9.count(3).log() // 12.reset().log() // 0.count(8).log(); // 8
 
 
-5. Проект [coctails](./Task2/coctails). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/coctails/coctails.html).
+5. Проект [coctails](./Task2/coctails). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/coctails/coctails.html).
 
 &emsp;Создаем файл coctails.html и реализуем следующее:    
 &emsp;1. Разработать класс HashStorage (в файле HashStorage.js) для хранения произвольных пар ключ-значение. Ключом может быть любая строка; значение может иметь любой тип, в том числе сложный (объект, массив или функция).    
@@ -267,13 +267,13 @@
 &emsp;Рецепт приготовления:    
 &emsp;Положи в блендер очищенную и нарезанную половинку банана и клубнику 2 ягоды. Налей лимонный сок 15 мл, гренадин 10 мл, клубничный сироп 10 мл и персиковый сок 150 мл. Добавь в блендер совок дробленого льда и взбей. Перелей в хайбол. Укрась кружком банана и половинкой клубники на коктейльной шпажке.
 
-6. Проект [class](./Task2/class). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task2/class/class.html).
+6. Проект [class](./Task2/class). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task2/class/class.html).
 
 &emsp;Взять за основу файл class.html и переписать код с сохранением работы всех методов и логики, используя синтаксис ES6 для классов (class).
 
 ### Задание № 3
 
-1. Проект [calendar](./Task3/calendar). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task3/calendar/calendar.html).
+1. Проект [calendar](./Task3/calendar). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task3/calendar/calendar.html).
 
 &emsp;Берём решение calendar.html и реализуем следующее:    
 &emsp;1. Добавить слева месяца и года кнопки “<<” и “<”.    
@@ -282,7 +282,7 @@
 &emsp;4. Добавляем справа кнопки “>>” и “>” и реализуем тот же функционал, только увеличивая месяц и год соответственно.    
 &emsp;5. Стилизовать календарь и кнопки ([ориентировочный вариант](https://prnt.sc/IDNJo9Ce5DvK))
 
-2. Проект [editable-list](./Task3/editable-list). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task3/editable-list/editable-list.html).
+2. Проект [editable-list](./Task3/editable-list). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task3/editable-list/editable-list.html).
 
 &emsp;Создаем файл editable-list.html, в котором реализуем следующий функционал:    
 &emsp;1. Создать инициализирующую функцию, которая, получая массив элементов (тестовые строковые значения), строит из них нумерованный список.    
@@ -294,7 +294,7 @@
 
 ### Задание № 4
 
-1. Проект [events](./Task4/events). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task4/events/events.html).
+1. Проект [events](./Task4/events). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task4/events/events.html).
 
 &emsp;Создаем файл events.html, в котором реализуем следующий функционал:    
 &emsp;1. Сверстайте 3-5 любых ссылок с title и href и привяжите всем ссылкам событие - по наведению на ссылку в конец ее текста дописывается ее значение href в круглых скобках, а текст ссылки заменяется на значение атрибута title, после этого отвязать данное событие.    
@@ -302,7 +302,7 @@
 &emsp;3. Сверстать 3-5 абзацев, в которых будут числа и по нажатию на абзац в нем должен появиться квадрат числа, которое он содержит. Срабатывать событие должно единожды.    
 &emsp;4. Сверстать 3-5 текстовых инпутов. Сделайте так, чтобы все инпуты при потере фокуса проверяли свое содержимое на правильное количество символов. Сколько символов должно быть в инпуте, указывается в атрибуте data-length. Если вбито правильное количество, то бордер (граница) инпута становится зеленой, если неправильное - красной.
 
-2. Проект [calendar-with-selects](./Task4/calendar-with-selects). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task4/calendar-with-selects/calendar-with-selects.html).
+2. Проект [calendar-with-selects](./Task4/calendar-with-selects). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task4/calendar-with-selects/calendar-with-selects.html).
 
 &emsp;Забираем решение calendar2.html и реализуем следующее:    
 &emsp;1. Удаляем функционал запроса у пользователя месяца и года посредством prompt();    
@@ -312,18 +312,18 @@
 &emsp;5. Добавить в header кнопку “Удалить”, по клику на которую будет удаляться первый созданный календарь и т.д. Если нет календарей для удаления, то кнопка задизейблена, т.е. не активна.    
 &emsp;6. При наведении на ячейку календаря с числом месяца (т.е. датой), она должна подсвечиваться другим фоновым цветом, а по клику этот цвет должен оставаться, но при этом активной может быть только одна ячейка этого конкретного календаря. Т.е. для каждого календаря можно сделать одну активную ячейку.
 
-3. Проект [sortable-list](./Task4/sortable-list). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task4/sortable-list/sortable-list.html).
+3. Проект [sortable-list](./Task4/sortable-list). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task4/sortable-list/sortable-list.html).
 
 &emsp;Необходимо средствами JavaScript создать список с сортируемыми элементами (цвета радуги, буквы алфавита, цифры и т.п.), стилизовать, чтобы вышло примерно как на [Рис1](https://prnt.sc/GfpiNr952FCC). В дата-атрибуты элементов списка записать значение, которое будет определять правильный порядок этих элементов. В скрипте в переменной массива задать правильный порядок элементов, с которым будет сравниваться сортируемый пользователем список после каждого его (пользователя) действия. Необходимо реализовать функционал перетаскивания и замены между собой элементов списка (результат см. в файле dragable-list.mp4), после каждого события drop необходимо запускать проверку на валидность списка (на правильность сортировки) и, если порядок верен, то подсветить элементы зеленым цветом ([Рис2](https://prnt.sc/-e1GF-WYlS8q)) или же другим способом обозначить верность сортировки.
 
 ### Задание № 5
 
-1. Проект [clock](./Task5/clock). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task5/clock/clock.html).
+1. Проект [clock](./Task5/clock). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task5/clock/clock.html).
 
 &emsp;Создаем файл clock.html, в котором реализуем методами DOM часы, которые показывают текущее время и идут в реальном времени. Цифры часов не верстать «жёстко», т.е. создавать, добавлять их и вычислять позиции в цикле. Никаких «волшебных констант» в коде не использовать — все константы вынести в начало скрипта с чётким документированием.    
 &emsp;[Пример](https://prnt.sc/1ER2grzYD6-N)
 
-2. Проект [clock-svg](./Task5/clock-svg). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task5/clock-svg/clock-svg.html).
+2. Проект [clock-svg](./Task5/clock-svg). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task5/clock-svg/clock-svg.html).
 
 &emsp;Создаем файл clock-svg.html и реализуем следующее:    
 &emsp;1. Создать с помощью функции svg-элементы, которые будут эмулировать часы.    
@@ -331,7 +331,7 @@
 &emsp;Все элементы часов верстать не «жёстко», а создавать их методами и вычислять положение от центра. Никаких «волшебных констант» в коде не использовать — все константы вынести в начало скрипта с чётким документированием. Не забываем так же сделать цифровое отображение времени на часах.    
 &emsp;[Пример](https://prnt.sc/VR_dX4tMA4IW)
 
-3. Проект [clock-canvas](./Task5/clock-canvas). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task5/clock-canvas/clock-canvas.html).
+3. Проект [clock-canvas](./Task5/clock-canvas). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task5/clock-canvas/clock-canvas.html).
 
 &emsp;Создаем clock-canvas.html и реализуем следующее:    
 &emsp;1. создать элемент canvas c id=”clock”.    
@@ -342,7 +342,7 @@
 
 ### Задание № 6
 
-1. Проект [ping-pong_dom](./Task6/ping-pong_dom). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task6/ping-pong_dom/ping-pong_dom.html).
+1. Проект [ping-pong_dom](./Task6/ping-pong_dom). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task6/ping-pong_dom/ping-pong_dom.html).
 
 &emsp;Создаем ping-pong_dom.html.    
 &emsp;Реализовать игру «ping-pong» методами DOM:    
@@ -356,7 +356,7 @@
 &emsp;Никаких «волшебных констант» в коде не использовать — все константы вынести в начало скрипта с чётким документированием.    
 &emsp;[Пример](https://prnt.sc/pen9uiLYruIn)
 
-2. Проект [ping-pong_svg](./Task6/ping-pong_svg). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task6/ping-pong_svg/ping-pong_svg.html).
+2. Проект [ping-pong_svg](./Task6/ping-pong_svg). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task6/ping-pong_svg/ping-pong_svg.html).
 
 &emsp;Создаем ping-pong_svg.html.    
 &emsp;Реализовать игру «пинг-понг» используя теги и методы SVG:    
@@ -369,7 +369,7 @@
 &emsp;7. Игра заканчивается, если любой из игроков набирает 5 очков.    
 &emsp;Никаких «волшебных констант» в коде не использовать — все константы вынести в начало скрипта с чётким документированием.
 
-3. Проект [ping-pong_canvas](./Task6/ping-pong_canvas). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task6/ping-pong_canvas/ping-pong_canvas.html).
+3. Проект [ping-pong_canvas](./Task6/ping-pong_canvas). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task6/ping-pong_canvas/ping-pong_canvas.html).
 
 &emsp;Создаем ping-pong_canvas.html.    
 &emsp;Реализовать игру «пинг-понг» используя методы Canvas (не забывая про буферизацию):    
@@ -384,7 +384,7 @@
 
 ### Задание № 7
 
-1. Проект [birthday](./Task7/birthday). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task7/birthday/birthday.html).
+1. Проект [birthday](./Task7/birthday). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task7/birthday/birthday.html).
 
 &emsp;Создаем файл birthday.html.    
 &emsp;Реализовать следующее:    
@@ -394,7 +394,7 @@
 
 ### Задание № 8
 
-1. Проект [clocks-mvc](./Task8/clocks-mvc). Ссылка на [работу](https://ner0nysad.github.io/it-academy-js/Task8/clocks-mvc/clocks-mvc.html).
+1. Проект [clocks-mvc](./Task8/clocks-mvc). Ссылка на [работу](https://ner0ny.github.io/it-academy-js/Task8/clocks-mvc/clocks-mvc.html).
 
 &emsp;Создаем файл clocks-mvc.html.    
 &emsp;Реализовать следующее (см. результат в конце) согласно концепции активного MVC:    
